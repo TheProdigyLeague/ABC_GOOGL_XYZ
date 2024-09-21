@@ -1,6 +1,9 @@
+![dorking](https://github.com/user-attachments/assets/c89a214c-6e9d-4282-9e5a-28d683925bf9)
+
+<hr>
 <html>
 <body>
-<h1 align="center">ATSCAN SCANNER</h1>
+<h1 align="center">ATSCAN</h1>
 <p align="center"> 
   <a title="Version 17.0.1" href="https://github.com/AlisamTechnology/ATSCAN/releases">
      <img src="https://img.shields.io/badge/V%2017.0.1-Stable-blue.svg">
@@ -14,16 +17,12 @@
   <a title="Perl Download" href="https://www.perl.org/get.html">
     <img src="https://img.shields.io/badge/Perl-Required-yellow.svg">
   </a>
-    <img title="Works in all platforms" src="https://img.shields.io/badge/Platform-All-green.svg">
-  <a title="Follow us in Facebook" href="https://www.facebook.com/Alisam.Technology/">
-    <img src="https://img.shields.io/badge/Facebook-Follow-blue.svg">
-  </a>
 </p> 
-<p align="center"> <b>Advanced Mass Search / Dork / Exploitation Scanner  </b></p>
+<p align="center"> <b>AdvancedSearch / Dorking / MetaScan  </b></p>
 <table border="0" cellpadding="2" cellspacing="2" width="100%">
   <tr>
     <td align="center"><img title="Legal desclaimer" src="https://imgur.com/7OzJEBI.png"></td>
-     <td align="center"> <b><a href="https://github.com/AlisamTechnology/">Alisam Technology</a> is not responsible for any misuse, damage caused by this script or attacking targets without prior mutual consent! It is your responsibility to obey laws!</b>
+     <td align="center"> <b><a href="https://github.com/AlisamTechnology/">Alisam Technology</a> is not responsible for any misuse or damage caused by this script or attacking targets without prior mutual consent! It is your responsibility to obey laws!</b>
     </td>
   </tr>
 </table>
@@ -40,51 +39,37 @@
 </table>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
   <tr>
-	&#9733; <b>Description:</b>
+	&#9733; <b>Features:</b>
   </tr>
   <tr>
     <td class="main" width="546px"><p>
-	    &#x25cf; Engines: [Google apis cache] Bing Ask Yandex Sogou Exalead Shodan<br />
-        &#x25cf; Mass Dork Search<br/>
-		&#x25cf; Multiple instant scans. <br/>
-		&#x25cf; Mass Exploitation <br/>
-		&#x25cf; Use proxy. <br/>
-        &#x25cf; Random user agent. <br/>
-		&#x25cf; Random engine.<br/> 
-		&#x25cf; Mass Extern commands execution.<br/>
-		&#x25cf; Exploits and issues search.<br/>
-        &#x25cf; XSS / SQLI / LFI / AFD scanner.<br /> 
-		&#x25cf; Filter wordpress & Joomla sites. <br />
-		&#x25cf; Wordpress theme and plugin detection. <br />
-        &#x25cf; Find Admin page.<br />
-		&#x25cf; Decode / Encode Base64 / MD5<br/> 
+	    &#x25cf; Engines: Google, Bing, Ask, Yandex, Sogou, Exalead, Shodan, etc.)<br />
+        &#x25cf; Dorking<br/>
+		&#x25cf; MultiSearch and instant reverse-proxy.<br/>
+		&#x25cf; Randomize engine and agent.<br/> 
+		&#x25cf; External Commands.<br/>
+        &#x25cf; XSS / SQLI / LocalFileInclusion with Advanced Format Drivers including port swiggers with socks vendors.<br /> 
+		&#x25cf; Filters Wordpress and Joomla sites.<br />
+		&#x25cf; Detects plugins.<br />
+        &#x25cf; Hosts our Find The Admin page with decrypted search.<br />
+		&#x25cf; Decoder plugins with Encoded Basedx64 Subsytems with MD5 encryption subprocessors.<br/> 
     </p></td>
-    <td class="main" width="340px"><p>
-		&#x25cf; Ports scan. <br/>
-		&#x25cf; Collect IPs<br/>
-		&#x25cf; Collect E-mails. <br/>
-        &#x25cf; Auto detect errors. <br/> 
-        &#x25cf; Auto detect forms. <br/> 		
-		&#x25cf; Auto detect Cms.<br/>
-		&#x25cf; Post data.<br/>
-		&#x25cf; Auto sequence repeater.<br/>
-        &#x25cf; Validation.<br/>
-		&#x25cf; Post and Get method<br/>
-		&#x25cf; IP Localisation<br/>
-		&#x25cf; Issues and Exploit search<br/>
-		&#x25cf; Interactive and Normal interface.<br/>
-		&#x25cf; And more...
+    <td class="main" width="340px"><p>		
+		&#x25cf; Pre-filters Content Management Systems.<br/>
+		&#x25cf; 4n0n4t - auto sequence repeater.<br/>
+        &#x25cf; Built-in Key Validation.<br/>
+		&#x25cf; Built-in SQLI with issues and exploitation results with interactive UI, HUD and modified interface.<br/>
     </p></td>
   </tr>
 </table>
 <table border="0" cellpadding="2" cellspacing="5" width="100%">
   <tr>
-    <td class="main3" width="890px"> <b>&#9733; Libreries to install:</b></td>
+    <td class="main3" width="890px"> <b>&#9733; All you need for Dorking:</b></td>
   </tr>
   <tr>
     <td class="main">
       <a title="Perl Download" href="https://www.perl.org/get.html">Perl</a> Required. <br/>
-      Works in all platforms.
+      Works on all platforms.
       Disponible in <a href="https://blackarch.org/">Blackarch</a> and <a href="https://dracos-linux.org/">Dracos</a> Linux.
     </td>
   </tr>
