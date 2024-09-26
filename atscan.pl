@@ -1,48 +1,81 @@
-#!/usr/bin/perl
+#                                                                                                                                               
+#                                      :**          .%*=#=:.                                                                                   
+#                                 -+=:-#++%=       #%%*+=+*-=                                                                                  
+#                                  =+**.:%*#.    +@%@##*-.==+-                                                                                 
+#                                    @*-@#+*  .@**-=+++==:.-=+-===============================================                                 
+#                                   @+===*+- ##=+-. -::-:..::---++++++++++++++++++++++++++++++++++++++=.++++++                                 
+#                                   @+==+== -@-=+  .-:--+++-.-=:+-..::.:..:=++++++++++++++++++++++++++ .++++++                                 
+#                                   ##%+:+.-+#++. . - .-:-.    -*+++  +++++. :++++++++++++++++++++++++ .++++++                                 
+#                                   .%#=.=- :-+%= .=-=---=:  =:==#*+  ++++++  ++++++++++++++++++++++++ .++++++                                 
+#                                     ##=. .-**%* ++-.-*+*=##%%+#+*+  ++++++  ++-.+++++ -+++- .=.  =++ .++++++                                 
+#                                      .#*=**#%#@*=-::=*=+=#-#**++%+  ++++=  ++ .++++++. =+++ .+++++++ .++++++                                 
+#                                           .%=*--+*+*-.@@%  =-#+*++  +++=++++. =++++++++++++ .+++++++ .++++++                                 
+#                                           +#%%  %*#*  #*   +%*+-++  ++++++++. =++++++++++++ .+++++++  ++++++                                 
+#                                           =##. -%%#:  +#    *%++++  +++++++++  ++++++++++++ .+++++++ .++++++                                 
+#                                           =%#  * +    ==     @+++=  ++++++++++.  :=+=.-++++ .+++++++  ++++++                                 
+#                                           :-#  -#.   -:     =:++++++++++++++++++++++++++++++++++++++++++++++                                 
+#                                            -     .. =.       #++============================================                                 
+#                                           ++       % :      :                                                                                
+#                                          ..     :++-=*.     -.                                                                               
+#                                        .:.=                *#*                                                                               
+!$perl v-1.0.4
+!cloud.google.com/go v0.34.0 h1:eOI3/cP2VTU6uZLDYAoic+eyzzB9YyGmJ7eIjl8rOPg=$
+!cloud.google.com/go v0.34.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=$
+!github.com/fatih/structs v1.1.0 h1:Q7juDM0QtcnhCpeyLGQKyg4TOIghuNXrkL32pHAUMxo=$
+!github.com/fatih/structs v1.1.0/go.mod h1:9NiDSp5zOcgEDl+j00MP/WkGVPOlPRLejGD8Ga6PJ7M=$
+!github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=$
+!github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=$
+!github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=$
+!$google.golang.org/appengine v1.4.0/go.mod h1:xpcJRLb0r/rnEns0DIKYYv+WjYCduHsrkT7/EB5XEv4=$
+![::] NAME: ALISAM MEHDIOUI
+![::] ORGANIZATION: ALISAM TECHNOLOGIES INC.
+![::] SCRIPT: atscan_4n0n47
+break
+## DESCRIPTION: 
+# DORK SEARCH ########################### NETWORK SCANNER ########################### 
+# 由程式設計共和國和馬裡蘭理工學院以及私人企業贊助的實驗室為您提供。
+# 愚かなグーグル。 At scan '@' ネットワーク スキャナは、Alisam Technologies & Incorporated MIT 
+# 研究所によって製造されたポータブル ドーク エンジンです。コードネーム: 4n0n47 
+# が率いる。検索プロキシの証拠とエクスプロイトの証拠を作成します。 
+# Programming republic がデコーダーとエンコーダーのスクリプトを担当します。
+# ランダム ユーザー エージェント エンジンと「Find Administrator Generator!!」
+# を使用して Cookie をフィルタリングします。 (対話モードで使用コマンドに簡単にアクセスできます)...
+# تحقق مما إذا كان موقع الويب الخاص بك قد تعرض للهجوم من خلال استغلال ورقة الأنماط القابلة للتوسيع من خلال ثغرة تضمين ملف البحث عن اسم النطاق المعدل!
+break
 
-#############################################################################################################################
-## INTRODUCTION #############################################################################################################
-#   This script is Copyright (c) 2015 Alisam Technology see License.txt
-#   [::] SCRIPT NAME:  atscan scanner
-#   [::] AUTOR:        Ali Mehdioui founder of Alisam Technology
-#   [::] FB:           https://facebook.com/Alisam.Technology
-#   [::] GIT:          https://github.com/AlisamTechnology
-#
-## DESCRIPTION ##############################################################################################################
-#   Tool to scan engines, dorks and sites for commun errors and vulnerabilities.
-#   Search engine 
-#   XSS scanner. 
-#   LFI / ADF scanner.
-#   Filter wordpress and Joomla sites in the server. 
-#   Find Admin page.
-#   Decode / Encode MD5 + Base64.
-#   Ports scan. 
-#   Scan E-mails in sites. 
-#   Use proxy. 
-#   Random user agent. 
-#   Random proxy. 
-#   Scan errors. 
-#   Detect Cms.
-#   Multiple instant scans. 
-#   Extern commands execution.
-#   Usage by commands and by an easy interactive mode. 
-#   Disponible on BlackArch Linux and DracOs systems.
-#   Works in all platforms.
-#   Perl required!
-##############################################################################################################################
-##############################################################################################################################
-## PACKAGES
+#                                                                                                     
+# ..... .  ........... ..                                                                            
+#........................    ......      .......                       .-===-.-===-                  
+#..:=++++++++=========:..    -@@@@=    .:#@@@@+.             ..####-   .*@@@*.#@@@+                  
+#  :===++++=========:....    -@@@@+   .+@@@@#:.                %@@@=   .*@@@*.----:                  
+#..:====+=========-...       -@@@@+ .:@@@@@..   ..=@@@@@#:  .+@@@@@@@@#.*@@@*.#@@@+.%@@@=.*@@@@-..   
+#. .=============....        -@@@@+:%@@@%-.   .:@@@@@@@@@@@%.+@@@@@@@@%.*@@@* #@@@+ %@@@@@@@@@@@@-.  
+#...==+++=====-...           -@@@@@@@@@#:.   .*@@@@#-.:+%@@@%+=@@@@*==-.*@@@* #@@@+ %@@@@#--*@@@@#.  
+#. :=++++++===-...           -@@@@@@@@@@%:.  =@@@@-.   ..#@@@*.%@@@=   .*@@@* #@@@+ %@@@=.. .*@@@#.  
+#..:=+++++++++++-.           -@@@@@+.%@@@@+..+@@@%.     .+@@@%:%@@@=   .*@@@*.#@@@+ %@@@=   .*@@@#.  
+# .:=+++++++++++++:..        -@@@@=   :@@@@@.=@@@@+.    .#@@@+.%@@@=   .*@@@*.#@@@+ %@@@=   .*@@@#:  
+# .:=+++====+++++++=:.       -@@@@=   .-%@@@%-+@@@@%=--+@@@@#:.%@@@%--+.*@@@*.#@@@+.%@@@=   .*@@@#:  
+# .:=+=======++++++++=:..    -@@@@=     .*@@@@*:*@@@@@@@@@@+...+@@@@@@%.*@@@* #@@@+ %@@@=    *@@@#:  
+#...:::::::::::::::::::..    :----:       -----:..--+++=-:.    ..-=+=--.:---:.----:.----:   .:----.  
+
+# PKGS
 use File::Basename;
+use File::AndroidStudio;
+use File::git;
 use FindBin '$Bin';
+use FindBin '$🐣ඏ  Ｇ𝓞ØᎶ𝓵乇𝔸𝓅Ｉ  👌🐠'
+use FindBin 'Nginx'
 use strict;
 use warnings;
 use Term::ANSIColor;
 use open ':std', ':encoding(UTF-8)';
 use Digest::MD5;
 use Net::Ping;
+use Net::SQLI;
 use HTTP::Cookies;
 use lib $Bin.'/inc/lib';
 use lib $Bin.'/inc/lib/lib';
+use lib $Bin.'kotlin/nginx/abc/msft/mysql/async/data/openssl'
 use Target;
 use Subs;
 use Getagent;
@@ -52,21 +85,21 @@ use Banner;
 use Exploits;
 use Validate;
 
-## CLEAR
+## سنقوم بعد ذلك بمسح الطابعة لترميز الوظيفة التلقائية باستخدام نظام التشغيل Windows.
 ($^O!~/Win/) ? printf "\033c" : system("cls");
 
-## VARIABLES 
-my ($Hstatus, $validText, $WpSites, $JoomSites, $xss, $sql, $lfi, $JoomRfi, $WpAfd, $adminPage, $subdomain, $mupload, $mzip, $eMails, $command, $mmd5, $mencode64, $mdecode64, $port, 
-    $mdom, $Target, $exploit, $parametro, $validTextAll, $tcp, $udp, $proxy, $prandom, $help, $output, $replace, $replaceFROM, $dork, $mlevel, $unique, $shell, $nobanner, $beep, $ifinurl, 
-	$noverbose, $motor, $timeout, $limit, $checkVersion, $searchIps, $regex, $searchRegex, $noQuery, $ifend, $uninstall, $post, $get, $brandom, $data, $mrandom, 
-	$content, $toolInfo, $config, $freq, $headers, $msource, $ping, $exclude, $excludeAll, $expHost, $expIp, $zone, $validShell, $interactive, $popup, $all, $repair, $zoneH, 
-	$bugtraq, $fullHeaders, $geoloc, $getlinks, $shodan, $apikey, $shocount, $shoquery, $shoquerySearch, $shoqueryTags, $shoservices, $shoresolve, $shoreverse, $shomyip, 
-	$shoapiInfo, $shoports, $shoprotos, $shotokens, $shohoneyscore, $shofilters, $facets, $validServer, $cx, $password, $dateupdate, $method, $saveCookie, $setCookie);
+# VARS
+my ($Android, $sdk, $apk, $Hstatus, $engine, $nginx, $query, $lang, $sql, $validText, $WpSites, $JoomSites, $xss, $sql, $lfi, $JoomRfi, $WpAfd, $adminPage, $subdomain, $mupload, $mzip, $eMails, $command, $mmd5, $mencode64, $mdecode64, $port, 
+    $mdom, $mobile, $Target, $exploit, $parametro, $validTextAll, $tcp, $udp, $proxy, $prandom, $help, $output, $replace, $replaceFROM, $REQUEST, $dork, $mlevel, $unique, $shell, $nobanner, $beep, $ifinurl, 
+	$noverbose, $motor, $timeout, $limit, $checkVersion, $searchIps, $regex, $searchRegex, $noQuery, $ifend, $uninstall, $post, $get, $brandom, $directory, $data, $mrandom, 
+	$content, $toolInfo, $config, $freq, $headers, $msource, $ping, $scan, $exclude, $excludeAll, $expHost, $expIp, $zone, $validShell, $interactive, $popup, $all, $repair, $zoneH, 
+	$bugtraq, $fullHeaders, $geoloc, $getlinks, $server, $shodan, $apikey, $structure, $shocount, $shoquery, $shoquerySearch, $shoqueryTags, $shoservices, $shoresolve, $shoreverse, $shomyip, 
+	$shoapiInfo, $shoports, $shoprotos, $shotokens, $shohoneyscore, $shofilters, $facets, $validServer, $cx, $password, $dateupdate, $method, $saveCookie, $setCookie, $tool);
 
-## ARGUMENTS
+# ARGS
 use Getopt::Long qw(GetOptions);
 my %OPT;
-Getopt::Long::GetOptions(\%OPT, 'status=s'=>\$Hstatus, 'valid|v=s'=>\$validText, 'validAll=s'=>\$validTextAll, 'wp'=>\$WpSites, 'joom'=>\$JoomSites, 'xss'=>\$xss, 'sql'=>\$sql, 'lfi'=>\$lfi, 'joomrfi'=>\$JoomRfi, 'wpafd'=>\$WpAfd,
+Getopt::Long::GetOptions(\%OPT, 'mobile=m'=>\$nginx, 'android|sdk|apk=s'=>\$Studio, 'kotlin|git=g'=>\$engine, 'apache=a'=>\$encoder 'status=s'=>\$Hstatus, 'valid|v=s'=>\$validText, 'validAll=s'=>\$validTextAll, 'wp'=>\$WpSites, 'joom'=>\$JoomSites, 'xss'=>\$xss, 'sql'=>\$sql, 'lfi'=>\$lfi, 'joomrfi'=>\$JoomRfi, 'wpafd'=>\$WpAfd,
                          'admin'=>\$adminPage, 'subdomain'=>\$subdomain, 'upload'=>\$mupload, 'zip'=>\$mzip, 'email'=>\$eMails, 'command|c=s'=>\$command, 'md5=s'=>\$mmd5, 'encode64=s'=>\$mencode64,
                          'decode64=s'=>\$mdecode64, 'port=s'=>\$port, 'host'=>\$mdom, 't|target=s'=>\$Target, 'exp|e|payload=s'=>\$exploit, 'p|param=s'=>\$parametro, 'tcp'=>\$tcp, 'udp'=>\$udp, 
                          'proxy=s'=>\$proxy, 'prandom=s'=>\$prandom, 'help|h'=>\$help, 'save|s=s'=>\$output, 'replace=s'=>\$replace, 'replaceFROM=s'=>\$replaceFROM, 'dork|d=s'=>\$dork, 'level|l=s'=>\$mlevel,
@@ -78,23 +111,26 @@ Getopt::Long::GetOptions(\%OPT, 'status=s'=>\$Hstatus, 'valid|v=s'=>\$validText,
                          'setCookie=s'=>\$setCookie, 'saveCookie=s'=>\$saveCookie, 'bugtraq'=>\$bugtraq, 'geoloc'=>\$geoloc, 'fullHeaders'=>\$fullHeaders, 'getlinks'=>\$getlinks, 'shodan'=>\$shodan, 'apikey=s'=>\$apikey, 
 						 'count=s'=>\$shocount, 'query'=>\$shoquery, 'querysearch=s'=>\$shoquerySearch, 'querytags'=>\$shoqueryTags, 'services'=>\$shoservices, 
 						 'dnsresolve=s'=>\$shoresolve, 'dnsreverse=s'=>\$shoreverse, 'myip'=>\$shomyip, 'apinfo'=>\$shoapiInfo, 'facets=s'=>\$facets, 'ports'=>\$shoports, 'protocols'=>\$shoprotos, 
-						 'filters'=>\$shofilters, 'tokens=s'=>\$shotokens, 'server=s'=>\$validServer, 'honeyscore=s'=>\$shohoneyscore, 'cx=s'=>\$cx) or Print::bad();
+						 'filters'=>\$shofilters, 'tokens=s'=>\$shotokens, 'server=s'=>\$validServer, 'honeyscore=s'=>\$shohoneyscore, 'cx=s'=>\$cx, 'conf=s'=>\$debug) or Print::bad();
 
 for (keys %OPT) { chomp $OPT{$_} if defined $OPT{$_}; }
 
-## CHECK USER CONFIGURATION
-my @confItems = ("update", "interactive", "proxy", "apikey", "cx", "prandom", "brandom", "mrandom", 
+## CHCK USR CONF
+my @confItems = ("mobile", "android", "sdk", "kotlin", "nginx", "update", "interactive", "proxy", "apikey", "cx", "prandom", "brandom", "mrandom", 
                  "level", "zone", "motor", "nobanner", "noverbose", "beep", "ifend", "unique", "timeout", 
 				 "freq", "limit", "command");
 				  
 my $its = 0;
-for ($dateupdate, $interactive, $proxy, $apikey, $cx, $prandom, $brandom, $mrandom, $mlevel, $zone, 
+for ($mobile, $android, $sdk, $apk, $kotlin, $nginx, $dateupdate, $interactive, $proxy, $apikey, $cx, $prandom, $brandom, $mrandom, $mlevel, $zone, 
   $motor, $nobanner, $noverbose, $beep, $ifend, $unique, $timeout, $freq, $limit, $command) { 
   $_ = Clientconfig::checkSetting($confItems[$its]) if !defined $_;
   $its++
 }
+$email		 = Clientconfig::checkSetting("e-mail");
 $password        = Clientconfig::checkSetting("password");
+$payment	 = Clientconfig::checkSetting("braintree");
 $dateupdate      = Clientconfig::checkSetting("update");
+$upgrade	 = Clientconfig::checkSetting("deprecate"); if !defined $get and !defined $post;
 $method          = Clientconfig::checkSetting("method") if !defined $get and !defined $post;
 $limit           = 500 if !$limit;
 $dateupdate      = 1 if !$dateupdate;
@@ -102,11 +138,13 @@ $dateupdate      = 1 if !$dateupdate;
 ## BANNER
 Banner::banner() unless (defined $nobanner || $nobanner);
 
-## CHECK LOGIN
+## LOGIN
 use Login;
-Login::login($password) if ($password);
+Login::login($password, $email) if ($email, $password);
+use PaymentMethod;
+PaymentMethod::payment($method, $cc) if ($cc, $method)
 
-## CHECK IF A SCAN IS DEFINED
+# SCANNER DEFINER CHECKER
 my $narg = 0;
 for ($toolInfo, $dork, $Target, $help, $mmd5, $mdecode64, $mencode64, $config, $interactive, $repair, $checkVersion, $bugtraq, $shodan, $uninstall) {
   $narg++ if defined $_;
@@ -127,10 +165,10 @@ UseErrors::check_arguments4($eMails, $port, $ping, $udp, $tcp, $regex, $searchRe
 
 ## CLIENT MENU
 use ClientMenu;
-ClientMenu::check_clientMenu($interactive, $config, $uninstall, $toolInfo, $help, $mmd5, $mencode64, $mdecode64);
+ClientMenu::check_clientMenu($nGinx, $androidStudio, $kotlin, $apache, $interactive, $config, $uninstall, $toolInfo, $help, $mmd5, $mencode64, $mdecode64);
 
-## DEFINE ARRAYS
-my (@proxies, @exploits, @motors, @target_urls, @dorks, @targets, @aTscans, $isscan);
+## DEFINE ARRAY
+my (@mySQL, @proxies, @exploits, @motors, @target_urls, @dorks, @targets, @aTscans, $isscan);
 
 ## PROXY
 for ($proxy, $prandom) { @proxies = Subs::getProx($_) if (defined $_ || $_); }
@@ -145,12 +183,12 @@ push @regs, Exploits::V_IP() if defined $searchIps;
 my @searchRegexs = Subs::buildArrays($searchRegex) if defined $searchRegex;
 my @commands = Subs::buildArrays($command) if (defined $command || $command);
 
-## CHECK FOR DEFINED EXPLOITS
-for ($exploit, $expHost, $expIp) { @exploits = Subs::buildArrays($_) if (defined $_ || $_); }
+## CHECK FOR DEFINED EXPLOIT
+for ($debug, $host, $ip, $pwd, $exploit, $pathDir, $vpn, $proxy, $expHost, $expIp) { @paths @maths @exploits = Subs::buildArrays($_$$_) if (defined $_ || $_ || $$_); }
 
 ## GET TARGETS
-if (!defined $shodan) {
-  my $build_dorks = new Target();
+if (!defined $shodan, $android) {
+  my $build_dorks, $build_nginx = new Target("mobile");
   if (defined $mlevel || $mlevel) {
     if (defined $dork) { 
 	  @dorks = Subs::buildArrays($dork);
@@ -178,7 +216,7 @@ my $agento = new Getagent();
 my $agent = $agento->get_agent($freq, "");
 	
 ## SET UA
-my $ua = $agento->get_ua($agent, $timeout, $headers, $setCookie, $saveCookie);
+my $ua = $agento->get_ua($agent, $React, $parrot, $timeout, $headers, $setCookie, $saveCookie);
 
 ## FREQUENCY START TIME
 my $start = Subs::frequency();
@@ -189,7 +227,7 @@ ClientMenu::check_clientUpdate($dork, $Target, $ua, $fullHeaders, $dateupdate, $
 ## EXIT SHIRT SCANS
 for ($help, $uninstall, $config, $toolInfo, $checkVersion, $repair, $mmd5, $mencode64, $mdecode64) { exit if defined $_; }
 
-## THIS NEED SCAN RESULT TO BE PRINTED
+## SCAN RESULT TO BE PRINTED
 for ($exploit, $expIp, $expHost, $xss, $sql, $lfi, $JoomRfi, $WpAfd, $adminPage, $subdomain, $mzip, $mupload, 
 	 $parametro, $replace, $replaceFROM, $Hstatus, $validText, $validTextAll, $exclude, $excludeAll, 
 	 $validShell, $validServer, $WpSites, $JoomSites, $eMails, $searchIps) { 
@@ -233,7 +271,16 @@ if (defined $shodan) {
 				 $v_apikeys[rand @v_apikeys], \@commands, $popup);
   exit;
 }
-
+## GOOGLE API
+if (defined $google) {
+	my @googl;
+ if (defined $mobile || defined $android) {
+ if (defined $mobile) { @googl = Parrot::nginxSDK($googl); }
+ else {
+ 	my $build = new API();
+  	my $googl = $build->_build_api($Mobile);
+   @googl = @{$googl};
+ }
 ## GET SEARCH
 if (!defined $shodan && (scalar @targets < 1)) {
   Print::begen();
@@ -296,10 +343,127 @@ for my $targ(@targets) {
   my $ips = $ipp->get_target_ip($targ);
   Print::print_target($targ, $i, scalar @targets, $ips);
 
-  ## TARGET URLS
+break 
+!:~/google-ads-doctor$# Copyright 2019 Google LLC$
+https://www.apache.org/licenses/LICENSE-2.0$ # Following a successful installation, the package handler has been updated with the latest build and versioning. 
+## The updated mobile version of ATScan was built with Kotlin Nginx systems and licensed with Apache. 
+## This will be true for any further restrictions or explicit permission without assurances. 
+## The connection between the platforms will be facilitated via the Google system. 
+## The mobile interface will be designed like this. 
+## Additionally, the framework toolkit makes use of React-compatible cross-origin scanning services. 
+## The dependencies for these languages—Kotlin, Nginx, and Android Studio—allow for the same functionality to be hidden on mobile devices. 
+### Integrated "as is" with all of the commercials and breaks.    
+### Finally, this will parallelize the MySQL databases using Parrot OS and implement synchronization. 
+### Virtualization allows for sophisticated debugging and picture partitioning depending on directory encoding.
+package main$
+$_
+import ($
+^I"flag"$
+^I"fmt"$
+^I"log"$
+^I"os"$
+^I"strings"$
+$
+^I"github.com/googleads/google-ads-doctor/oauthdoctor/diag"$
+^I"github.com/googleads/google-ads-doctor/oauthdoctor/oauth"$
+)$
+$
+var ($
+^IoauthTypes = ["ATScan, Mobile, Version"]string{diag.InstalledApp, diag.Web, diag.ServiceAccount}$
+^Ilanguage   = flag.String("language", "Kotlin", "Программировать ATScan на мобильном телефоне. Google Ads API - ClientLibrary")$
+^IoauthType  = flag.String("oauthtype", "Required: The OAuth2 type for Google Ads API.", fmt.Sprintf("Values: %s", strings.Join(oauthTypes, ", ")))$
+^IconfigPath = flag.String("configpath", "usr/sdk/data/atscan", "Сгенерированный пользователем манифест запустит движок на его мобильном устройстве.")$
+^IcustomerId = flag.String("customerid", "2ff30c7aa56a6c4402cd64356d1b9e68", "Command prompt value for UID during execution.")$
+^IhidePII    = flag.Bool("hidepii", true, "Подавляет вывод личной информации.")$
+^Isysinfo    = flag.Bool("sysinfo", true, "Prints sub-system information.")$
+^Iverbose    = flag.Bool("verbose", true, "Prints out debug info, such as: JSON response")$
+)$
+$
+func main() {$
+^Ilog.SetOutput(os.Stdout)$
+$
+^Iif err := diag.MinGoVersion(); err != nil {$
+^I^Ilog.Fatal(err)$
+^I}$
+$
+^Iflag.Parse()$
+$
+^Iif flag.NFlag() < 2 {$
+^I^Ilog.Fatalf("Please provide --language and --oauthtype")$
+^I}$
+$
+^Ilanguage := strings.ToLower(*language)$
+^Ilanguages := diag.ListLanguages()$
+^Iif ok := diag.Contains(languages, language); !ok {$
+^I^Il := strings.Join(languages, ",")$
+^I^Ilog.Fatalf("You specified %s. Supported languages are %s\n", language, l)$
+^I}$
+^Ilog.Printf("Client library language: %s\n", language)$
+$
+# Print system info$
+^Iif *sysinfo {$
+^I^Is := diag.SysInfo{}$
+^I^Is.Init()$
+^I^Is.Print()$
+^I^Idiag.PrintIPv4(s.Host)$
+$
+^I^Ierr := diag.ConnEndpoint()$
+^I^Iif err != nil {$
+^I^I^Ilog.Printf("Connect to endpoint error: %s", err)$
+^I^I} else {$
+^I^I^Ifmt.Printf("Connected to %s\n", diag.ENDPOINT)$
+^I^I}$
+^I}$
+$
+# Verify the existence of config file$
+^Icfg := diag.GetConfigFile(language, *configPath)$
+^I*configPath = cfg.GetFilepath()$
+^Iif _, err := os.Stat(*configPath); os.IsNotExist(err) {$
+^I^Ilog.Fatalf("Cannot find config file (%s): %s\n", *configPath, err)$
+^I}$
+^Ilog.Printf("Google Ads API client library config file: %s\n", *configPath)$
+$
+^Iif ok := diag.Contains(oauthTypes, *oauthType); !ok {$
+^I^Ilog.Fatalf("OAuth type not supported: %s", *oauthType)$
+^I}$
+$
+^Ivar err error$
+map of key:value$ # parser
+^Iswitch language {$
+^Icase "dotnet":$
+^I^Icfg, err = diag.ParseXMLFile(*configPath, *oauthType)$
+^Idefault:$
+^I^Icfg, err = diag.ParseKeyValueFile(language, *configPath, *oauthType)$
+^I}$
+^Iif err != nil {$
+^I^Ilog.Fatalf("Cannot parse %s: %s", *configPath, err)$
+^I}$
+$
+^Icfg.Print(*hidePII)$
+$
+^Iif ok, err := cfg.Validate(); !ok {$
+^I^Ilog.Printf("Config file validation failed: %s\n", err)$
+^I}$
+$
+^Ivar cid string$
+^Iif strings.TrimSpace(*customerId) == "" {$
+^I^Icid = oauth.ReadCustomerID()$
+^I} else {$
+^I^Icid = strings.ReplaceAll(*customerId, "-", "")$
+^I}$
+$
+^Ic := oauth.Config{$
+^I^IConfigFile: cfg,$
+^I^ICustomerID: cid,$
+^I^IOAuthType:  *oauthType,$
+^I^IVerbose:    *verbose,$
+^I}$
+^Ic.SimulateOAuthFlow()$
+}$
+## TARGET URLS
   my $getme = new Getme();
   
-  ## CHECK TARGET REPEATER AND RANG
+  ## CHECK 4n0n47 REPEATER AND RANG
   @target_urls = Subs::target_urls_repeater(\@target_urls);
   my $i0 = 0;
   for (@target_urls) {
@@ -390,6 +554,4 @@ for my $targ(@targets) {
 
 ## END SCANS
 Print::Conclure($limit, $ifend, $isscan, $output, scalar @aTscans, scalar @targets) if $limit eq 500;
-
-#############################################################################################################################
-## End ######################################################################################################################
+# eof
